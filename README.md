@@ -1,1 +1,31 @@
-# dynamix
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pong Game</h1>
+        <div class="scoreboard">
+            <div class="score">
+                <span>Player</span>
+                <p id="playerScore">0</p>
+            </div>
+            <div class="score">
+                <span>Computer</span>
+                <p id="computerScore">0</p>
+            </div>
+        </div>
+        <canvas id="pongCanvas" width="800" height="400"></canvas>
+        <div class="controls">
+            <p>Use <strong>Mouse Y-position</strong> or <strong>Arrow Keys (↑↓)</strong> to move left paddle</p>
+            <button id="startBtn">Start Game</button>
+            <button id="resetBtn">Reset Score</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
